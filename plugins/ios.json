@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-geolocation": {
+      "GEOLOCATION_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.spheros.app"
+    },
+    "polarcape-cordova-plugin-document-handler": {
+      "PACKAGE_NAME": "com.spheros.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.spheros.app"
+    }
+  }
+}

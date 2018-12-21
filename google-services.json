@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "937195990218",
+    "firebase_url": "https://valeo-tbs-brasil.firebaseio.com",
+    "project_id": "valeo-tbs-brasil",
+    "storage_bucket": "valeo-tbs-brasil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937195990218:android:20ea1f290758682b",
+        "android_client_info": {
+          "package_name": "com.spheros.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937195990218-1o9j03i480uh9fdiaepijk7d7p2qlrsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuufsnth4ZoK_7K3p1ccN1OOGRCplVG7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

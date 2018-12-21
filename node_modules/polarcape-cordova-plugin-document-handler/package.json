@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "polarcape-cordova-plugin-document-handler@^1.0.9",
+        "scope": null,
+        "escapedName": "polarcape-cordova-plugin-document-handler",
+        "name": "polarcape-cordova-plugin-document-handler",
+        "rawSpec": "^1.0.9",
+        "spec": ">=1.0.9 <2.0.0",
+        "type": "range"
+      },
+      "/Users/hit/Apps/spheros"
+    ]
+  ],
+  "_from": "polarcape-cordova-plugin-document-handler@>=1.0.9 <2.0.0",
+  "_id": "polarcape-cordova-plugin-document-handler@1.0.9",
+  "_inCache": true,
+  "_location": "/polarcape-cordova-plugin-document-handler",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/polarcape-cordova-plugin-document-handler-1.0.9.tgz_1496835468541_0.5852554831653833"
+  },
+  "_npmUser": {
+    "name": "polarcape",
+    "email": "info@polarcape.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "polarcape-cordova-plugin-document-handler@^1.0.9",
+    "scope": null,
+    "escapedName": "polarcape-cordova-plugin-document-handler",
+    "name": "polarcape-cordova-plugin-document-handler",
+    "rawSpec": "^1.0.9",
+    "spec": ">=1.0.9 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/polarcape-cordova-plugin-document-handler/-/polarcape-cordova-plugin-document-handler-1.0.9.tgz",
+  "_shasum": "af9dc020e13b6d0f206cbffeb121903a67679f4d",
+  "_shrinkwrap": null,
+  "_spec": "polarcape-cordova-plugin-document-handler@^1.0.9",
+  "_where": "/Users/hit/Apps/spheros",
+  "author": {
+    "name": "Polar Cape",
+    "email": "info@polarcape.com",
+    "url": "http://polarcape.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/PolarCape/polarcape-cordova-plugin-document-handler/issues"
+  },
+  "cordova": {
+    "id": "polarcape-cordova-plugin-document-handler",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "A phonegap plugin to handle documents (f.e. PDFs) loaded from a URL.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "af9dc020e13b6d0f206cbffeb121903a67679f4d",
+    "tarball": "https://registry.npmjs.org/polarcape-cordova-plugin-document-handler/-/polarcape-cordova-plugin-document-handler-1.0.9.tgz"
+  },
+  "gitHead": "b699485e9f954e1043665c03dca99d47009d3c3d",
+  "homepage": "https://github.com/PolarCape/polarcape-cordova-plugin-document-handler",
+  "keywords": [
+    "polarcape",
+    "cordova",
+    "pdf"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "polarcape",
+      "email": "info@polarcape.com"
+    }
+  ],
+  "name": "polarcape-cordova-plugin-document-handler",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "cordova-plugin-file": "^4.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolarCape/polarcape-cordova-plugin-document-handler.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}

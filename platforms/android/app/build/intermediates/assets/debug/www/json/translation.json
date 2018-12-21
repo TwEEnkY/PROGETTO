@@ -1,0 +1,106 @@
+{
+	"inicial": {
+		"pt": "inicial",
+		"es": "inicial"
+	},
+	"noticias": {
+		"pt": "notícias",
+		"es": "Noticias"
+	},
+	"produtos": {
+		"pt": "produtos",
+		"es": "productos"
+	},
+	"redeAssistencia": {
+		"pt": "rede de assistência",
+		"es": "rede de asistencia"
+	},
+	"manuais":{
+		"pt": "manuais",
+		"es": "manuais"
+	},
+	"videos":{
+		"pt": "vídeos",
+		"es": "videos"
+	},
+	"contatos":{
+		"pt": "contatos comerciais",
+		"es": "contatos comerciales"
+	},
+	"menu":{
+		"pt": "MENU",
+		"es": "MENU"
+	},
+	"acessar":{
+		"pt": "O que você deseja acessar?",
+		"es": "Qué tienes que hacer?"
+	},
+	"ultimaNoticia":{
+		"pt": "Última notícia",
+		"es": "Última noticia"
+	},
+	"todasCategorias":{
+		"pt": "Todas as categorias",
+		"es": "Todas las categorías"
+	},
+	"exibindoRepresentantes":{
+		"pt": "Exibindo assistências em ",
+		"es": "Mostrar las asistencias en"
+	},
+	"toqueEstado":{
+		"pt": "TOQUE PARA SELECIONAR O ESTADO ",
+		"es": "TOQUE PARA SELECCIONAR EL ESTADO"
+	},
+	"ligarContato":{
+		"pt": "LIGAR PARA ESSE CONTATO",
+		"es": "CONEXIÓN PARA ESTE CONTACTO"
+	},
+	"verMaisInformacoes":{
+		"pt": "VER MAIS INFORMAÇÕES",
+		"es": "MÁS INFORMACIÓN"
+	},
+	"rotaAssistencia":{
+		"pt": "TRAÇAR ROTA NO GOOGLE MAPS",
+		"es": "TRAZAR ROTA EN GOOGLE MAPS"
+	},
+	"ligarAssistencia":{
+		"pt": "LIGAR PARA ESSA ASSISTÊNCIA",
+		"es": "CONEXIÓN PARA ESTA ASISTENCIA"
+	},
+	"exibirTodos":{
+		"pt": "EXIBIR TODAS ASSISTÊNCIAS<br/> DESSE ESTADO",
+		"es": "EXHIBIR TODAS ASISTENCIAS <br/> DE ESTE ESTADO"
+	},
+	"voltarPaginaAnterior":{
+		"pt": "Voltar para página anterior",
+		"es": "Volver a la página anterior"
+	},
+	"documentosProdutos":{
+		"pt": "Documentos deste produto",
+		"es": "Documentos de este producto"
+	},
+	"voltarNoticias":{
+		"pt": "Voltar para notícias",
+		"es": "Volver a las noticias"
+	},
+	"enviarArquivo":{
+		"pt": "Enviar arquivo por e-mail",
+		"es": "Enviar archivo por e-mail"
+	},
+	"nome":{
+		"pt": "Nome",
+		"es": "Nombre"
+	},
+	"email":{
+		"pt": "E-mail",
+		"es": "E-mail"
+	},
+	"enviar":{
+		"pt": "Enviar",
+		"es": "Enviar"
+	},
+	"verTodasAssistencias":{
+		"pt": "Ver todas assistências",
+		"es": "Ver todas assistencias"
+	}
+}

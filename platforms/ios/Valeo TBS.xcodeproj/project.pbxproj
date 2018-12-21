@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		00BA70BC160543F096B9D65F /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB72268395840CB831E166A /* FirebaseRemoteConfig.framework */; };
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		105617174F6147D4831C187A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39AD1964D97F4C45B869A018 /* GoogleService-Info.plist */; };
+		158C3E21121A4ED1B0889C97 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B770190D72A84088841A6B0D /* CDVViewController+SplashScreen.m */; };
+		1AA46CE7FBAD4C7F8B11C286 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999ACBE0DF354702A5420835 /* FirebaseNanoPB.framework */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1EFE39C9958E4AE6BC7BA079 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096FEDE6DA124092B5B2C590 /* nanopb.framework */; };
+		22ACE3D8A581458AA4053F88 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B7C8D354AA45E6A94EAA5E /* CoreLocation.framework */; };
+		2646EE6E1AC14FC2BB9A768D /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2C9BC986C4C5AB852989B /* CDVSplashScreen.m */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		36E415F6066B43C8B7BAD6CB /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BE12848012423AA86DB69D /* CDVNotification.m */; };
+		3FDA0A33AF5F4366B1B13B50 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CBFB65A1E944F4A3D4D5C2 /* CDVLocalFilesystem.m */; };
+		41A95C8F641C408A97F18178 /* DocumentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174CF6F96DF4777BAE2DB11 /* DocumentHandler.m */; };
+		43CB359A3FFD4CB8B53D9E47 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2946F5175054C499E711480 /* FirebaseAnalytics.framework */; };
+		4AAB303C5D6945C09C3D4BB7 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182BCFB1A79C4E0EB887A0D2 /* FirebaseABTesting.framework */; };
+		524B6C50B7324661B586A2C9 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7066D30EF74D40068A54A3CA /* Protobuf.framework */; };
+		528F8591A16448FDAB7CFF5C /* AppDelegate+FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CE358935C4E247B5B4394107 /* AppDelegate+FirebasePlugin.m */; };
+		54047DA984714B7F9102D0B9 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421B4128EC04663B52B2EA0 /* FirebaseAuth.framework */; };
+		56714842ECF44369931AA4AA /* FirebaseSwizzlingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A475C320A0B4717B7DAD41C /* FirebaseSwizzlingUtilities.framework */; };
+		67BA77B8AE26490A931B8B94 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E22687B7A8465DA2A1F9B4 /* FirebaseCoreDiagnostics.framework */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6B549149F16B41F98B406285 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DADF24CE8CB4B008AA63BC1 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6FF8D4F744384BC385E91351 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8FEE2466A4938BF61E532 /* CDVStatusBar.m */; };
+		8F01032D3CC048F3AD5B2900 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6134304A2B79403E8D6D79E3 /* QuickLook.framework */; };
+		907CBEE3AFF64E318734732C /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD05551936A48308E87047E /* CDVDevice.m */; };
+		91F6327286F84C4D88D6B10E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794426D8C9B24FC2901EB837 /* FirebaseInstanceID.framework */; };
+		9C9A257814EB4F09BE08EF77 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20740C27CB435EA1FD1B4F /* CDVFile.m */; };
+		B89E895A9E6C40959FBA3422 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49809B82071642259AB81B23 /* CDVAssetLibraryFilesystem.m */; };
+		B98B357E4E694B77B9FA0510 /* FirebasePerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3098B742E2C46ADA83CCED6 /* FirebasePerformance.framework */; };
+		BC13682909934BBDA01AD7A0 /* FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D671E6DC6F4280B1449099 /* FirebasePlugin.m */; };
+		C41EE77FE61C4024B4F6899F /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF2101D34E54C07A01D1171 /* FirebaseCore.framework */; };
+		CB9B3763953C43C596B8DD77 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7296A6D8EBA04279A95F5BFB /* FirebaseMessaging.framework */; };
+		D3E321731BA7463DA0C40C67 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79C3184242504774B1B97547 /* CDVNotification.bundle */; };
+		DA012227B74043CF82892B9A /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACAFAEB7275469A87D953AC /* GoogleToolboxForMac.framework */; };
+		E404BEABE57B40F5A6464E07 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598728903DE647B9AC93F314 /* FirebaseCrash.framework */; };
+		F0606286389E47AF80AC1226 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725248446B7141AD89FF8FFE /* GTMSessionFetcher.framework */; };
+		F105E22753474E0EA5CCC79B /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDF1EF719F24284B4A22582 /* CDVLocation.m */; };
+		F1B64259FBF941189309EA9A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE89C63AC854B3A9A86B97C /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		4A5D977C20866E56000D3B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Valeo TBS/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		07E22687B7A8465DA2A1F9B4 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseCoreDiagnostics.framework"; sourceTree = "<group>"; };
+		096FEDE6DA124092B5B2C590 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/nanopb.framework"; sourceTree = "<group>"; };
+		0BD05551936A48308E87047E /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		1174CF6F96DF4777BAE2DB11 /* DocumentHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = DocumentHandler.m; path = "polarcape-cordova-plugin-document-handler/DocumentHandler.m"; sourceTree = "<group>"; };
+		182BCFB1A79C4E0EB887A0D2 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseABTesting.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseABTesting.framework"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Valeo TBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valeo TBS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D946AF9DEA04B9BA3FAD451 /* CDVLocation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; };
+		2674048016C448B0B7CF757F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A475C320A0B4717B7DAD41C /* FirebaseSwizzlingUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseSwizzlingUtilities.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseSwizzlingUtilities.framework"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		30FCF4E5DBAE4CCB92805CEE /* FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePlugin.h; path = "cordova-plugin-firebase/FirebasePlugin.h"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Valeo TBS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Valeo TBS-Prefix.pch"; sourceTree = "<group>"; };
+		342B5B119C7948F6935C993D /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		39AD1964D97F4C45B869A018 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DADF24CE8CB4B008AA63BC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		41BE12848012423AA86DB69D /* CDVNotification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; };
+		49809B82071642259AB81B23 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
+		4D52B70B50F648F9A1E54983 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		4FB72268395840CB831E166A /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; };
+		598728903DE647B9AC93F314 /* FirebaseCrash.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseCrash.framework"; sourceTree = "<group>"; };
+		6134304A2B79403E8D6D79E3 /* QuickLook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		63CBFB65A1E944F4A3D4D5C2 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
+		63FEC563EBAC4F949FC60602 /* Firebase.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = "cordova-plugin-firebase/Firebase.h"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "Valeo TBS/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		6E20740C27CB435EA1FD1B4F /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		7066D30EF74D40068A54A3CA /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/Protobuf.framework"; sourceTree = "<group>"; };
+		725248446B7141AD89FF8FFE /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		7296A6D8EBA04279A95F5BFB /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseMessaging.framework"; sourceTree = "<group>"; };
+		794426D8C9B24FC2901EB837 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
+		79C3184242504774B1B97547 /* CDVNotification.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Valeo TBS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Valeo TBS-Info.plist"; path = "Valeo TBS/Valeo TBS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8EC2C9BC986C4C5AB852989B /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
+		9421B4128EC04663B52B2EA0 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseAuth.framework"; sourceTree = "<group>"; };
+		999ACBE0DF354702A5420835 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseNanoPB.framework"; sourceTree = "<group>"; };
+		9ACAFAEB7275469A87D953AC /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		9AFDC9C1EEAA4FD684717778 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		A3098B742E2C46ADA83CCED6 /* FirebasePerformance.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebasePerformance.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebasePerformance.framework"; sourceTree = "<group>"; };
+		ACF2101D34E54C07A01D1171 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseCore.framework"; sourceTree = "<group>"; };
+		AEDF1EF719F24284B4A22582 /* CDVLocation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; };
+		B396EC6DF1184D60ADCA1788 /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
+		B770190D72A84088841A6B0D /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
+		CE358935C4E247B5B4394107 /* AppDelegate+FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FirebasePlugin.m"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.m"; sourceTree = "<group>"; };
+		D6B7C8D354AA45E6A94EAA5E /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2946F5175054C499E711480 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "Valeo TBS/Plugins/cordova-plugin-firebase/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
+		E2A2ECC97CE84EE19CD1420A /* CDVNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; };
+		E2CAE909E3C944489C6CCB10 /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
+		E4A8FEE2466A4938BF61E532 /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		E9D671E6DC6F4280B1449099 /* FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePlugin.m; path = "cordova-plugin-firebase/FirebasePlugin.m"; sourceTree = "<group>"; };
+		EA1F2DCE197D44EA803E845C /* AppDelegate+FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FirebasePlugin.h"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.h"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Valeo TBS/config.xml"; sourceTree = "<group>"; };
+		FA37648879964A96B148A7C8 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		FCE89C63AC854B3A9A86B97C /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FF968C9541454F6D9C580E13 /* DocumentHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = DocumentHandler.h; path = "polarcape-cordova-plugin-document-handler/DocumentHandler.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				F1B64259FBF941189309EA9A /* libz.tbd in Frameworks */,
+				6B549149F16B41F98B406285 /* AudioToolbox.framework in Frameworks */,
+				43CB359A3FFD4CB8B53D9E47 /* FirebaseAnalytics.framework in Frameworks */,
+				C41EE77FE61C4024B4F6899F /* FirebaseCore.framework in Frameworks */,
+				67BA77B8AE26490A931B8B94 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				91F6327286F84C4D88D6B10E /* FirebaseInstanceID.framework in Frameworks */,
+				1AA46CE7FBAD4C7F8B11C286 /* FirebaseNanoPB.framework in Frameworks */,
+				DA012227B74043CF82892B9A /* GoogleToolboxForMac.framework in Frameworks */,
+				1EFE39C9958E4AE6BC7BA079 /* nanopb.framework in Frameworks */,
+				524B6C50B7324661B586A2C9 /* Protobuf.framework in Frameworks */,
+				CB9B3763953C43C596B8DD77 /* FirebaseMessaging.framework in Frameworks */,
+				E404BEABE57B40F5A6464E07 /* FirebaseCrash.framework in Frameworks */,
+				00BA70BC160543F096B9D65F /* FirebaseRemoteConfig.framework in Frameworks */,
+				4AAB303C5D6945C09C3D4BB7 /* FirebaseABTesting.framework in Frameworks */,
+				54047DA984714B7F9102D0B9 /* FirebaseAuth.framework in Frameworks */,
+				F0606286389E47AF80AC1226 /* GTMSessionFetcher.framework in Frameworks */,
+				B98B357E4E694B77B9FA0510 /* FirebasePerformance.framework in Frameworks */,
+				56714842ECF44369931AA4AA /* FirebaseSwizzlingUtilities.framework in Frameworks */,
+				22ACE3D8A581458AA4053F88 /* CoreLocation.framework in Frameworks */,
+				8F01032D3CC048F3AD5B2900 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "Valeo TBS/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Valeo TBS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Valeo TBS-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "Valeo TBS";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* Valeo TBS-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				79C3184242504774B1B97547 /* CDVNotification.bundle */,
+				39AD1964D97F4C45B869A018 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			path = "Valeo TBS/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE89C63AC854B3A9A86B97C /* libz.tbd */,
+				3DADF24CE8CB4B008AA63BC1 /* AudioToolbox.framework */,
+				E2946F5175054C499E711480 /* FirebaseAnalytics.framework */,
+				ACF2101D34E54C07A01D1171 /* FirebaseCore.framework */,
+				07E22687B7A8465DA2A1F9B4 /* FirebaseCoreDiagnostics.framework */,
+				794426D8C9B24FC2901EB837 /* FirebaseInstanceID.framework */,
+				999ACBE0DF354702A5420835 /* FirebaseNanoPB.framework */,
+				9ACAFAEB7275469A87D953AC /* GoogleToolboxForMac.framework */,
+				096FEDE6DA124092B5B2C590 /* nanopb.framework */,
+				7066D30EF74D40068A54A3CA /* Protobuf.framework */,
+				7296A6D8EBA04279A95F5BFB /* FirebaseMessaging.framework */,
+				598728903DE647B9AC93F314 /* FirebaseCrash.framework */,
+				4FB72268395840CB831E166A /* FirebaseRemoteConfig.framework */,
+				182BCFB1A79C4E0EB887A0D2 /* FirebaseABTesting.framework */,
+				9421B4128EC04663B52B2EA0 /* FirebaseAuth.framework */,
+				725248446B7141AD89FF8FFE /* GTMSessionFetcher.framework */,
+				A3098B742E2C46ADA83CCED6 /* FirebasePerformance.framework */,
+				2A475C320A0B4717B7DAD41C /* FirebaseSwizzlingUtilities.framework */,
+				D6B7C8D354AA45E6A94EAA5E /* CoreLocation.framework */,
+				6134304A2B79403E8D6D79E3 /* QuickLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+				4A5D977D20866E56000D3B00 /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0BD05551936A48308E87047E /* CDVDevice.m */,
+				9AFDC9C1EEAA4FD684717778 /* CDVDevice.h */,
+				41BE12848012423AA86DB69D /* CDVNotification.m */,
+				E2A2ECC97CE84EE19CD1420A /* CDVNotification.h */,
+				6E20740C27CB435EA1FD1B4F /* CDVFile.m */,
+				63CBFB65A1E944F4A3D4D5C2 /* CDVLocalFilesystem.m */,
+				49809B82071642259AB81B23 /* CDVAssetLibraryFilesystem.m */,
+				B396EC6DF1184D60ADCA1788 /* CDVFile.h */,
+				FA37648879964A96B148A7C8 /* CDVLocalFilesystem.h */,
+				4D52B70B50F648F9A1E54983 /* CDVAssetLibraryFilesystem.h */,
+				CE358935C4E247B5B4394107 /* AppDelegate+FirebasePlugin.m */,
+				E9D671E6DC6F4280B1449099 /* FirebasePlugin.m */,
+				EA1F2DCE197D44EA803E845C /* AppDelegate+FirebasePlugin.h */,
+				30FCF4E5DBAE4CCB92805CEE /* FirebasePlugin.h */,
+				63FEC563EBAC4F949FC60602 /* Firebase.h */,
+				AEDF1EF719F24284B4A22582 /* CDVLocation.m */,
+				1D946AF9DEA04B9BA3FAD451 /* CDVLocation.h */,
+				8EC2C9BC986C4C5AB852989B /* CDVSplashScreen.m */,
+				B770190D72A84088841A6B0D /* CDVViewController+SplashScreen.m */,
+				E2CAE909E3C944489C6CCB10 /* CDVSplashScreen.h */,
+				2674048016C448B0B7CF757F /* CDVViewController+SplashScreen.h */,
+				E4A8FEE2466A4938BF61E532 /* CDVStatusBar.m */,
+				342B5B119C7948F6935C993D /* CDVStatusBar.h */,
+				1174CF6F96DF4777BAE2DB11 /* DocumentHandler.m */,
+				FF968C9541454F6D9C580E13 /* DocumentHandler.h */,
+			);
+			name = Plugins;
+			path = "Valeo TBS/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Valeo TBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Valeo TBS" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "Valeo TBS";
+			productName = "Valeo TBS";
+			productReference = 1D6058910D05DD3D006BFB54 /* Valeo TBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = B38G8N83GC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Valeo TBS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Valeo TBS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A5D977D20866E56000D3B00 /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 4A5D977C20866E56000D3B00 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				D3E321731BA7463DA0C40C67 /* CDVNotification.bundle in Resources */,
+				105617174F6147D4831C187A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				907CBEE3AFF64E318734732C /* CDVDevice.m in Sources */,
+				36E415F6066B43C8B7BAD6CB /* CDVNotification.m in Sources */,
+				9C9A257814EB4F09BE08EF77 /* CDVFile.m in Sources */,
+				3FDA0A33AF5F4366B1B13B50 /* CDVLocalFilesystem.m in Sources */,
+				B89E895A9E6C40959FBA3422 /* CDVAssetLibraryFilesystem.m in Sources */,
+				528F8591A16448FDAB7CFF5C /* AppDelegate+FirebasePlugin.m in Sources */,
+				BC13682909934BBDA01AD7A0 /* FirebasePlugin.m in Sources */,
+				F105E22753474E0EA5CCC79B /* CDVLocation.m in Sources */,
+				2646EE6E1AC14FC2BB9A768D /* CDVSplashScreen.m in Sources */,
+				158C3E21121A4ED1B0889C97 /* CDVViewController+SplashScreen.m in Sources */,
+				6FF8D4F744384BC385E91351 /* CDVStatusBar.m in Sources */,
+				41A95C8F641C408A97F18178 /* DocumentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = B38G8N83GC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valeo TBS/Valeo TBS-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Valeo TBS/Valeo TBS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "Valeo TBS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = B38G8N83GC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+					"\"Valeo TBS/Plugins/cordova-plugin-firebase\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valeo TBS/Valeo TBS-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Valeo TBS/Valeo TBS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "Valeo TBS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Valeo TBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Valeo TBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

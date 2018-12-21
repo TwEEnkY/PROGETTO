@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <meta http-equiv="content-language" content="pt-br"/>
+		<meta name="language" content="portuguese"/>
+		<meta name="author" content="Hit Agencia Digital - http://www.hitdigital.com.br"/>
+		<meta name="copyright" content="Copyright 2014 - Hit Agencia Digital"/>
+		<meta name="reply-to" content="hit@hitdigital.com.br"/>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+
+        <title>Spheros</title>
+
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/valeo.css" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/default-skin/default-skin.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500italic,500,700,700italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+		<div data-role="page" id="home">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div role="main" class="ui-content">
+				<h2 class="titulo-fundo-azul" data-translate="acessar"></h2>
+				<div class="items-home">
+					<div class="item-home">
+						<a href="#noticias">
+							<span class="quadrado">
+								<img src="img/icon-noticias.png">
+							</span>
+							<span data-translate="noticias"></span>
+						</a>
+					</div>
+
+					<div class="item-home">
+						<a href="#produtos">
+							<span class="quadrado">
+								<img src="img/icon-produtos.png">
+							</span>
+							<span data-translate="produtos"></span>
+						</a>
+					</div>
+
+					<div class="item-home">
+						<a href="#rede-assistencia">
+							<span class="quadrado">
+								<img src="img/icon-assistencia.png">
+							</span>
+							<span data-translate="redeAssistencia"></span>
+						</a>
+					</div>
+					<br clear="all"/>
+
+					<div class="item-home">
+						<a href="#manuais">
+							<span class="quadrado">
+								<img src="img/icon-manuais.png">
+							</span>
+							<span data-translate="manuais"></span>
+						</a>
+					</div>
+
+					<div class="item-home">
+						<a href="#videos">
+							<span class="quadrado">
+								<img src="img/icon-videos.png">
+							</span>
+							<span data-translate="videos"></span>
+						</a>
+					</div>
+
+					<div class="item-home">
+						<a href="#contatos">
+							<span class="quadrado">
+								<img src="img/icon-contato.png">
+							</span>
+							<span data-translate="contatos"></span>
+						</a>
+					</div>
+					<br clear="all"/>
+				</div>
+
+				<h2 class="titulo-fundo-azul" data-translate="ultimaNoticia"></h2>
+
+				<div id="noticia-principal"></div>
+			</div>
+		</div>
+		<div data-role="page" id="noticias">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul" data-translate="noticias"></h2>
+				
+				<div id="noticias-listagem"></div>
+			</div>
+		</div>
+
+		<div data-role="page" id="noticia">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				<h2 class="titulo-fundo-azul no-margin titulo"></h2>
+
+				<a href="javascript: history.back(-1)" class="voltar">
+					<i class="fa fa-chevron-left"></i>
+					<span data-translate="voltarNoticias"></span>
+				</a>
+				
+				<div class="wrapper">
+					<h1 class="titulo"></h1>
+					<div class="topo-noticia"></div>
+					<div id="noticia-fotos" class="swiper-container"></div>
+					<span class="texto texto-padrao"></span>
+				</div>
+
+			</div>
+		</div>
+
+		<div data-role="page" id="enviarArquivo">
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul">
+					<span data-translate="enviarArquivo"></span>
+					<i class="fa fa-times"></i>
+				</h2>
+
+				<form action="" method="POST">
+					<input type="hidden" name="arquivo" value=""/>
+					<div class="wrapper">
+						<div class="campo">
+							<span data-translate="nome"></span><br/>
+							<input type="text" name="nome" required>
+						</div>
+
+						<div class="campo">
+							<span data-translate="email"></span><br/>
+							<input type="email" name="email" required>
+						</div>
+
+						<button type="submit" data-translate="enviar"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div data-role="page" id="produtos">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="produtos"></h2>
+				<select name="categoria">
+					<option value="" data-translate="todasCategorias"></option>
+				</select>
+
+				<div id="produtos-listagem"></div>
+			</div>
+		</div>
+
+		<div data-role="page" id="produto">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				<h2 class="titulo-fundo-azul no-margin">
+					<span data-translate="produtos"></span>
+					<i class="fa fa-chevron-right"></i>
+					<span class="categoria"></span>
+					<i class="fa fa-chevron-right"></i>
+					<span class="titulo"></span>
+				</h2>
+
+				<a href="javascript: history.back(-1)" class="voltar">
+					<i class="fa fa-chevron-left"></i>
+					<span data-translate="voltarPaginaAnterior"></span>
+				</a>
+				
+				<div class="wrapper">
+					<h1 class="titulo"></h1>
+					<div id="produto-fotos" class="swiper-container"></div>
+					<span class="texto texto-padrao"></span>
+				</div>
+
+				<div id="secoes">
+				</div>
+
+				<div id="downloads">
+					<div class="titulo-fundo-azul no-margin" data-translate="documentosProdutos"></div>
+					<div class="downloads"></div>
+				</div>
+
+				<a href="javascript: history.back(-1)" class="voltar">
+					<i class="fa fa-chevron-left"></i>
+					<span data-translate="voltarPaginaAnterior"></span>
+				</a>
+
+			</div>
+		</div>
+
+		<div data-role="page" id="manuais">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="manuais"></h2>
+				<select name="categoria" class="no-margin">
+					<option value="" data-translate="todasCategorias"></option>
+				</select>
+
+				<div id="manuais-listagem"></div>
+
+			</div>
+		</div>
+
+		<div data-role="page" id="videos">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="videos"></h2>
+				<select name="categoria">
+					<option value="" data-translate="todasCategorias"></option>
+				</select>
+
+				<div id="videos-listagem"></div>
+			</div>
+		</div>
+
+		<div data-role="page" id="contatos">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="contatos"></h2>
+				<select name="categoria">
+					<option value="" data-translate="toqueEstado"></option>
+				</select>
+
+				<div id="contatos-listagem"></div>
+			</div>
+		</div>
+
+		<div data-role="page" id="rede-detalhamento">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="redeAssistencia"></h2>
+				<select name="estado">
+					<option value="" data-translate="toqueEstado"></option>
+				</select>
+
+				<div id="rede-detalhamento-listagem"></div>
+
+				<a href="javascript: void(0);" class="exibirTodos" data-translate="exibirTodos" style="display: none;"></a>
+			</div>
+		</div>
+
+		<div data-role="page" id="rede-assistencia">
+			<div role="header" class="ui-header">
+				<div class="header">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+					<div class="language">
+						<span class="language-value">Português</span> <i class="fa fa-angle-down"></i>
+						<select name="idioma" data-role="none">
+							<option value="pt">Português</option>
+							<option value="es">Español</option>
+						</select>
+					</div>
+					<div class="menu-button">
+						<a href="#menu">
+							<span data-translate="menu"></span>
+							<span class="bt-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div role="main" class="ui-content">
+				
+				<h2 class="titulo-fundo-azul no-margin" data-translate="redeAssistencia"></h2>
+				<select name="estado">
+					<option value="" data-translate="toqueEstado"></option>
+				</select>
+				<div class="exibindo">
+					<a href="#rede-detalhamento" data-translate="verTodasAssistencias"></a>
+				</div>
+				<div id="mapa"></div>
+			</div>
+		</div>
+
+
+
+		<div data-role="panel" class="panel right panel-01" data-position="right" data-position-fixed="true" data-display="push" id="menu" data-theme="none">
+			<ul data-role="listview" data-theme="none">
+				<li><a href="#home" data-translate="inicial"></a></li>
+				<li><a href="#noticias" data-translate="noticias"></a></li>
+				<li><a href="#produtos" data-translate="produtos"></a></li>
+				<li><a href="#rede-assistencia" data-translate="redeAssistencia"></a></li>
+				<li><a href="#manuais" data-translate="manuais"></a></li>
+				<li><a href="#videos" data-translate="videos"></a></li>
+				<li><a href="#contatos" data-translate="contatos"></a></li>
+			</ul>
+
+		</div>
+
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+        <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/index.js?2"></script>
+        <script type="text/javascript" src="js/translate.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYEZx71FnzRuR5LxCTZMb7ZllHVXYmNsA&callback=initMap"
+	    async defer></script>
+    </body>
+</html>
